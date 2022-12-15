@@ -38,11 +38,11 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day01_test")
+    val testInput = readInput("Day01/test")
     val testResult = part1(testInput)
     "Test Result: ${testResult}".println()
 
-    val input = readInput("Day01")
+    val input = readInput("Day01/input")
     "Part 1 Result: ${part1(input)}".println()
     "Part 2 Result: ${part2(input)}".println()
 }

@@ -34,11 +34,11 @@ fun main() {
         return count
     }
 
-    val testInput = readInput("Day04_test")
+    val testInput = readInput("Day04/test")
     val testResult = part1(testInput)
     "Test Result: ${testResult}".println()
 
-    val input = readInput("Day04")
+    val input = readInput("Day04/input")
     "Part 1 Result: ${part1(input)}".println()
     "Part 2 Result: ${part2(input)}".println()
 }

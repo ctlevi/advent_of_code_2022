@@ -29,11 +29,11 @@ fun main() {
         }.sum()
     }
 
-    val testInput = readInput("Day03_test")
+    val testInput = readInput("Day03/test")
     val testResult = part1(testInput)
     "Test Result: ${testResult}".println()
 
-    val input = readInput("Day03")
+    val input = readInput("Day03/input")
     "Part 1 Result: ${part1(input)}".println()
     "Part 2 Result: ${part2(input)}".println()
 }

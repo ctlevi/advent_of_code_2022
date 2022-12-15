@@ -88,11 +88,11 @@ fun main() {
         return roundScores.sum();
     }
 
-    val testInput = readInput("Day02_test")
+    val testInput = readInput("Day02/test")
     val testResult = part1(testInput)
     "Test Result: ${testResult}".println()
 
-    val input = readInput("Day02")
+    val input = readInput("Day02/input")
     "Part 1 Result: ${part1(input)}".println()
     "Part 2 Result: ${part2(input)}".println()
 }
